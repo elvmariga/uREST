@@ -1,0 +1,42 @@
+body{
+    background: rgba(255, 255, 255, 0.9);
+    background-image: url("assets/Group 4.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 50%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.9);
+    padding-top: 5px;
+    padding-left: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+}
+li a:hover{
+    background-color: #FF8311;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 8px;
+}
